@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChkBox"
+    tools:context="com.asvtech.buttontry.com.asvtech.buttontry.ChkBox"
     android:background="@drawable/bg_layout_header">
 
     <CheckBox
@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="103dp"
-        android:textColor="#fff"/>
+        android:textColor="#333"/>
 
     <CheckBox
         android:id="@+id/checkBoxburger"
@@ -27,7 +27,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="179dp"
-        android:textColor="#fff"/>
+        android:textColor="#333"/>
 
     <CheckBox
         android:id="@+id/checkBoxhotdog"
@@ -38,7 +38,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="253dp"
-        android:textColor="#fff"/>
+        android:textColor="#333"/>
 
     <Button
         android:id="@+id/button_TotalBill"

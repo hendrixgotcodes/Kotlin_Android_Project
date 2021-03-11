@@ -7,7 +7,6 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.asvtech.buttontry.databinding.ActivitySpinnerExampleBinding
-import com.asvtech.buttontry.databinding.ActivityToggleButtonBinding
 
 //import kotlinx.android.synthetic.main.activity_spinner_example.*
 

@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.asvtech.buttontry.databinding.ActivityImageeButtonBinding
-import com.asvtech.buttontry.databinding.ActivityMainBinding
 
 //import kotlinx.android.synthetic.main.activity_imagee_button.*
 

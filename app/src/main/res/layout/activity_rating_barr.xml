@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RatingBarr"
+    tools:context="com.asvtech.buttontry.com.asvtech.buttontry.RatingBarr"
     android:orientation="vertical"
     android:gravity ="center"
     android:background="@drawable/bg_layout_header"

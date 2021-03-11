@@ -10,26 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ButtonTry">
 
-        <activity android:name=".ImageeButton"/>
+        <activity android:name="com.asvtech.buttontry.ImageeButton"/>
 
-        <activity android:name=".RatingBarr" />
-        <activity android:name=".ProgressBarr" />
+        <activity android:name="com.asvtech.buttontry.RatingBarr" />
+        <activity android:name="com.asvtech.buttontry.ProgressBarr" />
 
-        <activity android:name=".AutoCompleteTextvieww" />
-        <activity android:name=".DatePickerr" />
-        <activity android:name=".AlertDialogg" />
-        <activity android:name=".ToggleButton" />
-        <activity android:name=".ChkBox" />
-        <activity android:name=".SwitchButton" />
-        <activity android:name=".Toast" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.asvtech.buttontry.AutoCompleteTextvieww" />
+        <activity android:name="com.asvtech.buttontry.DatePickerr" />
+        <activity android:name="com.asvtech.buttontry.AlertDialogg" />
+        <activity android:name="com.asvtech.buttontry.ToggleButton" />
+        <activity android:name="com.asvtech.buttontry.ChkBox" />
+        <activity android:name="com.asvtech.buttontry.SwitchButton" />
+        <activity android:name="com.asvtech.buttontry.Toast" />
+        <activity android:name="com.asvtech.buttontry.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".spinner_example"/>
+        <activity android:name="com.asvtech.buttontry.spinner_example"/>
     </application>
 
 </manifest>

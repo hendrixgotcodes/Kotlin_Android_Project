@@ -2,10 +2,7 @@ package com.asvtech.buttontry
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
-import com.asvtech.buttontry.databinding.ActivityAlertDialoggBinding
 import com.asvtech.buttontry.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

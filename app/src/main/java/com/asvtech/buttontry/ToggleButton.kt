@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.asvtech.buttontry.databinding.ActivitySwitchButtonBinding
 import com.asvtech.buttontry.databinding.ActivityToggleButtonBinding
 
 //import kotlinx.android.synthetic.main.activity_main.*

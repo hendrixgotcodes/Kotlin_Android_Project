@@ -4,7 +4,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AutoCompleteTextvieww"
+    tools:context="com.asvtech.buttontry.AutoCompleteTextvieww"
     android:background="@drawable/bg_layout_header">
     <TextView
         android:id="@+id/text2"
@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        android:background="#008080"
+        android:background="@drawable/bg_button_rd"
         android:padding="5dp"
-        android:text="Patrick"
+        android:text="Samuel Asare"
         android:textColor="#fff"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -25,7 +25,7 @@
         android:layout_below="@+id/text2"
         android:layout_marginTop="20dp"
         android:hint="Enter fruit name"
-        android:textColor="#fff"
+        android:textColor="#333"
         android:textColorHint="#999"
         android:textStyle="bold" />
 </RelativeLayout>

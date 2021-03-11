@@ -1,193 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/layout_bg"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-193dp" />
+        android:orientation="vertical"
+        android:background="@drawable/bg_layout_header">
 
-    <TextView
-        android:id="@+id/btn_alertDialog"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:background="@drawable/bg_button"
-        android:padding="15dp"
-        android:text="Alert Dialog"
-        android:textColor="#fff"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/btn_autoComplete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Auto Complete"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_alertDialog"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_alertDialog"
+        <TextView
+            android:id="@+id/btn_alertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_button"
+            android:padding="15dp"
+            android:text="Alert Dialog"
+            android:textColor="#fff"
+            android:textSize="18sp"
         />
 
-    <TextView
-        android:id="@+id/btn_checkBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Check Box"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_autoComplete"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_autoComplete"
-    />
+        <TextView
+            android:id="@+id/btn_autoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auto Complete"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
 
-    <TextView
-        android:id="@+id/btn_datePicker"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Date Picker"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_checkBox"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_checkBox"
-        />
+        <TextView
+            android:id="@+id/btn_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Box"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
 
-    <TextView
-        android:id="@+id/btn_imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Image Button"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_datePicker"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_datePicker"
-    />
+        <TextView
+            android:id="@+id/btn_datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Picker"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
 
-    <TextView
-        android:id="@+id/btn_progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Progress Bar"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_imageButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_imageButton"
-        />
+        <TextView
+            android:id="@+id/btn_imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Button"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
 
-    <TextView
-        android:id="@+id/btn_ratingBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rating Bar"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_progressBar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_progressBar"
-    />
+            />
 
-    <TextView
-        android:id="@+id/btn_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Spinner"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_ratingBar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ratingBar"
-    />
+        <TextView
+            android:id="@+id/btn_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
 
-    <TextView
-        android:id="@+id/btn_switchButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Switch Button"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_spinner"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_spinner"
-    />
+            />
 
-    <TextView
-        android:id="@+id/btn_toast"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Toast"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_switchButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_switchButton"
-    />
+        <TextView
+            android:id="@+id/btn_ratingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rating Bar"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
 
-    <TextView
-        android:id="@+id/btn_toggleButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Toggle Button"
-        android:background="@drawable/bg_button"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:padding="15dp"
-        android:textSize="18sp"
-        android:layout_margin="5dp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_toast"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_toast"
-    />
+            />
 
+        <TextView
+            android:id="@+id/btn_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
 
+            />
 
+        <TextView
+            android:id="@+id/btn_switchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch Button"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            />
+
+        <TextView
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Button"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

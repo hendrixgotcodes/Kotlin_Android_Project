@@ -5,7 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Toast">
+    tools:context=".Toast"
+    android:background="@drawable/bg_layout_header"
+    >
 
     <Button
         android:id="@+id/btn_show_toast"

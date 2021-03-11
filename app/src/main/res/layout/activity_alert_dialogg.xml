@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".AlertDialogg">
+    tools:context=".AlertDialogg"
+    android:background="@drawable/bg_layout_header">
 
     <Button
         android:id="@+id/btnBasicAlert"

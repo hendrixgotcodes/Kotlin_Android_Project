@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChkBox">
+    tools:context=".ChkBox"
+    android:background="@drawable/bg_layout_header">
 
     <CheckBox
         android:id="@+id/checkBoxpizza"
@@ -14,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="103dp" />
+        tools:layout_editor_absoluteY="103dp"
+        android:textColor="#fff"/>
 
     <CheckBox
         android:id="@+id/checkBoxburger"
@@ -24,7 +26,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteY="179dp"
+        android:textColor="#fff"/>
 
     <CheckBox
         android:id="@+id/checkBoxhotdog"
@@ -34,7 +37,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="253dp" />
+        tools:layout_editor_absoluteY="253dp"
+        android:textColor="#fff"/>
 
     <Button
         android:id="@+id/button_TotalBill"
@@ -44,5 +48,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="442dp" />
+        tools:layout_editor_absoluteY="442dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

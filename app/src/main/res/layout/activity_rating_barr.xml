@@ -7,7 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".RatingBarr"
     android:orientation="vertical"
-    android:gravity ="center">
+    android:gravity ="center"
+    android:background="@drawable/bg_layout_header"
+    >
 
     <RatingBar
         android:id="@+id/rBar"

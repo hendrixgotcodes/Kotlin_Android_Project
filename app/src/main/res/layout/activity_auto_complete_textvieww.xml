@@ -4,7 +4,8 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AutoCompleteTextvieww">
+    tools:context=".AutoCompleteTextvieww"
+    android:background="@drawable/bg_layout_header">
     <TextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
@@ -13,7 +14,7 @@
         android:layout_marginTop="70dp"
         android:background="#008080"
         android:padding="5dp"
-        android:text="Samuel"
+        android:text="Patrick"
         android:textColor="#fff"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -24,6 +25,7 @@
         android:layout_below="@+id/text2"
         android:layout_marginTop="20dp"
         android:hint="Enter fruit name"
-        android:textColor="@android:color/background_dark"
+        android:textColor="#fff"
+        android:textColorHint="#999"
         android:textStyle="bold" />
 </RelativeLayout>

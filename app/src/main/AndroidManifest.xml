@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ButtonTry">
 
-        <activity android:name=".ImageeButton"></activity>
+        <activity android:name=".ImageeButton"/>
 
         <activity android:name=".RatingBarr" />
         <activity android:name=".ProgressBarr" />

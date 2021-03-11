@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asvtech.buttontry">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ButtonTry">
+
+        <activity android:name=".ImageeButton"></activity>
+
+        <activity android:name=".RatingBarr" />
+        <activity android:name=".ProgressBarr" />
+
+        <activity android:name=".AutoCompleteTextvieww" />
+        <activity android:name=".DatePickerr" />
+        <activity android:name=".AlertDialogg" />
+        <activity android:name=".ToggleButton" />
+        <activity android:name=".ChkBox" />
+        <activity android:name=".SwitchButton" />
+        <activity android:name=".Toast" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".spinner_example">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
